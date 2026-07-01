@@ -14,8 +14,7 @@ benchmarking procedure.
 
 ## Notebook Pipeline
 
-The table below follows the active clean pipeline documented in
-`docs/PROJECT_MAP.md` and `docs/CLEANUP_AUDIT.md`. The requested core weather
+The table below follows the active clean pipeline. The requested core weather
 and ML sequence is `00 -> 01a -> 01b -> 01c -> 01d -> 04 -> 05 -> 06 -> 07`.
 Current project documentation also lists notebook `01e` as the ERA5 climatology
 producer consumed by notebook `04`; run it before `04` if the ERA5 climatology
